@@ -1,0 +1,16 @@
+.PrimaryButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  /*width: 100%;*/
+  height: max-content;
+  background-color: rgb(153, 30, 102);
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+}

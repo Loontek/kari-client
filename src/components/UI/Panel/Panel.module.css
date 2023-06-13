@@ -1,0 +1,41 @@
+.Panel {
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 14%) 0px 2px 4px, rgb(0 0 0 / 12%) 0px 3px 4px, rgb(0 0 0 / 20%) 0px 1px 5px;
+  overflow: hidden;
+  height: max-content;
+}
+
+.list {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  color: rgb(154, 30, 102);
+  font-weight: 600;
+}
+
+.item {
+  width: 100%;
+  padding: 15px 25px;
+  border-bottom: 1px solid #C1C1C1;
+}
+
+
+.item_active {
+  background-color: rgb(154, 30, 102);
+}
+
+.item_active > .link {
+  color: white;
+}
+
+.link {
+  color: rgb(154, 30, 102);
+  text-decoration: none;
+}
+
+.item:last-child {
+  border: none;
+}

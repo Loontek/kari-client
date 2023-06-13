@@ -1,0 +1,22 @@
+.UserAccountInfo {
+  display: flex;
+  gap: 50px;
+}
+
+.avatar {
+  max-height: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  color: rgb(154, 30, 102);
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px;
+  line-height: 1;
+}
