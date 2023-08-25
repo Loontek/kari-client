@@ -1,0 +1,48 @@
+.Loader {
+  /*background-color: black;*/
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  border: 5px solid ;
+  border-color: cornflowerblue transparent transparent transparent;
+  animation: spin 1s infinite linear;
+}
+
+.Loader::before,
+.Loader::after {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  border: 5px solid;
+}
+
+.Loader::before {
+  width: 80px;
+  height: 80px;
+  top: -40%;
+  left: -40%;
+  border-color: yellow transparent transparent transparent;
+  animation: spin 2s infinite linear;
+}
+
+.Loader::after {
+  width: 65px;
+  height: 65px;
+  top: -25%;
+  left: -25%;
+  border-color: red transparent transparent transparent;
+  animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

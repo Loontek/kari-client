@@ -1,0 +1,14 @@
+.Header {
+  height: 100px;
+  padding: 10px 40px;
+  border-bottom: 1px solid #EEEEEE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

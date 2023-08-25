@@ -1,0 +1,9 @@
+.AppealsTable {
+  border: 1px  solid #C1C1C1;
+  border-radius: 5px;
+}
+
+.AppealsTable th {
+  border: 1px  solid #C1C1C1;
+  padding: 10px;
+}

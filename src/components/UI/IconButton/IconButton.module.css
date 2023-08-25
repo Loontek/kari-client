@@ -1,0 +1,12 @@
+.IconButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+}
+
+.IconButton img {
+  width: 100%;
+}
